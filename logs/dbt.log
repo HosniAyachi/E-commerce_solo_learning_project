@@ -1,0 +1,42 @@
+[0m14:57:46.916045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8919523C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A893DC8350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A893DC9A90>]}
+
+
+============================== 14:57:46.923046 | 53cfec13-88ec-4705-a0e4-8609a7ff800d ==============================
+[0m14:57:46.923046 [info ] [MainThread]: Running with dbt=1.8.9
+[0m14:57:46.924045 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Hosni\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init ecommerce', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:57:46.994045 [debug] [MainThread]: Starter project path: C:\Users\Hosni\miniconda3\Lib\site-packages\dbt\include\starter_project
+[0m14:57:47.029048 [info ] [MainThread]: 
+Your new dbt project "ecommerce" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:57:47.034048 [info ] [MainThread]: Setting up your profile.
+[0m14:59:10.648458 [info ] [MainThread]: Profile ecommerce written to C:\Users\Hosni\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:59:10.650460 [debug] [MainThread]: Command `dbt init` succeeded at 14:59:10.650460 after 83.86 seconds
+[0m14:59:10.651457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8944FA8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A894F2F8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8942CAE40>]}
+[0m14:59:10.652458 [debug] [MainThread]: Flushing usage events
+[0m15:51:02.258184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F537F60500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F53ADDEB40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F53ADDD7C0>]}
+
+
+============================== 15:51:02.265505 | 1f94b050-ea0a-4d4d-8154-22600b8c48ea ==============================
+[0m15:51:02.265505 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:51:02.266515 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Hosni\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run -s seller_view.sql', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:51:02.266515 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Hosni\Documents\Professional\ChatGPT_Project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:51:02.268516 [debug] [MainThread]: Command `dbt run` failed at 15:51:02.268516 after 0.13 seconds
+[0m15:51:02.269518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F53A9577A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F53B0FA060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F53A626AE0>]}
+[0m15:51:02.269518 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,14 @@
+sources:
+  - name: ecommerce
+    database: ecommerce_db
+    schema: ecommerce_schema
+    tables:
+      - name: customers
+      - name: geolocation
+      - name: orders
+      - name: order_items
+      - name: order_payments
+      - name: order_reviews
+      - name: products
+      - name: seller
+
